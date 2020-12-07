@@ -34,7 +34,7 @@ namespace Day1Part2
             {
                 for (int j = i + 1; j < expenses.Length - 1; j++)
                 {
-                    for (int k = j + 1; k < expenses.Length - 2; k++)
+                    for (int k = j + 1; k < expenses.Length; k++)
                     {
                         if((expenses[i] + expenses[j] + expenses[k]) > 2020){
                             break;
